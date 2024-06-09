@@ -1,15 +1,14 @@
-import img1 from "../components/planguage.jpg"
 
 function Card(props) {
   return (
     <>
     <card className="card1">
-    <img src={img1}/>
+    <img src={props.img1}/>
     <p>{props.title}</p>
     <ul>
-      <li></li>
-      <li></li>
-      <li></li>
+      <li>{props.lione}</li>
+      <li>{props.litow}</li>
+      <li>{props.lithre}</li>
     </ul>
     </card>
     </>
