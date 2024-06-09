@@ -1,15 +1,15 @@
-import img from "../components/planguage.jpg"
+import img1 from "../components/planguage.jpg"
 
 function Card(props) {
   return (
     <>
     <card className="card1">
-    <img src={img}className="logo" alt="Vite logo" />
-    <p>What is your favorite programming language? </p>
+    <img src={img1}/>
+    <p>{props.title}</p>
     <ul>
-      <li>JS</li>
-      <li>Java</li>
-      <li>Python</li>
+      <li></li>
+      <li></li>
+      <li></li>
     </ul>
     </card>
     </>

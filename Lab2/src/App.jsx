@@ -1,5 +1,5 @@
 import './App.css'
-import img from "../components/planguage.jpg"
+import img1 from "../components/planguage.jpg"
 import Navbar from './components/Navbar'
 import Card from './components/Card'
 import Footer from './components/Footer'
@@ -9,9 +9,9 @@ function App() {
   return (
     <>
       <Navbar />
-      <Card title='What is your favorite programming language?' img={img} lione = "js" litow="python" lithre="java"
-      
-      />
+      <Card img={img1} title='What is your favorite programming language?'  lione = "js" litow="python" lithre="java" />
+      <Card img={img2} title='What is your favorite programming language?'  lione = "js" litow="c++" lithre="java" />
+      <Card img={img3} title='What is your favorite programming language?'  lione = "c++" litow="c#" lithre="java" />
 
 
 
