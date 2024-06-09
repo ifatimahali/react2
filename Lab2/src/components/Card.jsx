@@ -3,7 +3,7 @@ function Card(props) {
   return (
     <>
     <card className="card1">
-    <img src={props.img1}/>
+    <img src={props.img}/>
     <p>{props.title}</p>
     <ul>
       <li>{props.lione}</li>
