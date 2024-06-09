@@ -38,5 +38,6 @@ height: 8vh;
 background-color: #c9c6c6;
 }
 .text{
+  padding: 15px;
   text-align: center;
 }
